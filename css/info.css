@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face {
+  font-family: "SBAggroM";
+  src: url("https://cdn.jsdelivr.net/gh/fontbee/font@main/SANDBOX/SBAggroM.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+html {
+  font-size: 16px;
+  font-family: "SBAggroM";
+}
+.inner {
+  margin: auto;
+  width: 1280px;
+}
+.title {
+  font-size: 3rem;
+  padding: 50px 0;
+  color: var(--gumi--sub-green);
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+.info img {
+  width: 40%;
+}
+.infoText {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.infoText ul li {
+  font-size: 1.4rem;
+  padding: 10px 0;
+  color: #333
+}
+
+.infoText p {
+    text-align: justify;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333
+}
+
+.infoText p span{
+    color: var(--gumi--main);
+}
