@@ -1,0 +1,8 @@
+/* Color styles */
+:root{
+--gumi--main: rgba(252, 103, 19, 1);
+--gumi--sub-yellow: rgba(255, 182, 80, 1);
+--gumi--sub-green: rgba(87, 141, 54, 1);
+--li-padding: 10px 20px;
+
+}
