@@ -24,6 +24,7 @@ html {
   background-color: #fff;
 }
 
+
 .tab {
   padding: 20px 0;
   display: flex;
@@ -39,6 +40,7 @@ html {
 .active {
   color: var(--gumi--sub-yellow);
 }
+
 
 /* Color styles */
 :root {
