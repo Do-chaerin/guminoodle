@@ -1,13 +1,5 @@
 @charset "utf-8";
-ul,
-li {
-  list-style: none;
-}
-li a {
-  text-decoration: none;
-  color: var(--gumi--sub-green);
-  font-size: 1.3rem;
-}
+@import url("variable.css");
 html {
   font-size: 20px;
   font-family: "SBAggroB";
@@ -55,7 +47,6 @@ nav {
   display: flex;
   align-items: center;
   gap: 50px;
-
 }
 
 .depth {
@@ -69,13 +60,4 @@ nav {
 .banner {
   margin-top: 80px;
   width: 100%;
-}
-.tab {
-  padding: 20px 0;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  width: 50%;
-  margin: auto;
-  text-align: center;
 }
