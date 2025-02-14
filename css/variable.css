@@ -5,11 +5,7 @@
   font-weight: 500;
   font-style: normal;
 }
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 ul,
 li {
   list-style: none;
@@ -28,12 +24,24 @@ html {
   background-color: #fff;
 }
 
-.tab li:hover a {
+
+.tab {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: var(--li--gap--l);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.tab li:hover{
   color: var(--gumi--sub-yellow);
 }
-.active{
+.active {
   color: var(--gumi--sub-yellow);
 }
+
+
 /* Color styles */
 :root {
   --gumi--main: rgba(252, 103, 19, 1);
