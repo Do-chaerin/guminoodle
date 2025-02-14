@@ -26,6 +26,7 @@ html {
 }
 
 
+
 .tab {
   padding: 20px 0;
   display: flex;
@@ -36,6 +37,7 @@ html {
   text-align: center;
 }
 .tab li:hover{
+
   color: var(--gumi--sub-yellow);
 }
 .active {
