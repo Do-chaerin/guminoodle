@@ -28,6 +28,10 @@ html {
   background-color: #fff;
 }
 
+.tab{
+  gap: var(--li--gap--l);
+}
+
 .tab li:hover a {
   color: var(--gumi--sub-yellow);
 }

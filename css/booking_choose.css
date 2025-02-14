@@ -6,3 +6,25 @@
   font-weight: normal;
   font-style: normal;
 }
+/* 기본 스타일 */
+.tabs {
+  cursor: pointer;
+  color: var(--gumi--sub-green);
+  display: flex;
+  width: 1280pxw;
+}
+
+.tab {
+  border: none;
+  background: none;
+  font-size: 20px;
+  transition: 0.3s;
+  gap: var(--li--gap-l);
+  margin: 10px;
+}
+.content {
+  display: none;
+}
+.content.active {
+  display: block;
+}

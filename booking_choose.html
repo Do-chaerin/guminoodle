@@ -72,14 +72,75 @@
       <!-- 배너 -->
       <img class="banner" src="images/배너(구미라면) (1).jpg" alt="배너" />
       <!--탭 -->
-      <ul class="tab">
-        <li><a href="booking_choose.html">축제예약</a></li>
-        <li><a href="history.html">공장견학</a></li>
+      <ul class="tabs">
+        <li class="tab active" onclick="openTab(0)">개인예약</li>
+        <li class="tab" onclick="openTab(1)">부스신청</li>
+        <li class="tab" onclick="openTab(2)">공장견학</li>
       </ul>
       <!--공통-->
-
+    <!-- 탭 내용 -->
+    <div class="content active">
+     <section>
+      <legend>개인 예약</legend>
+      <ul>
+        <li>
+          <label for="fullName">이름</label>
+          <input type="text" id="fullName" name="fullName" required />
+        </li>
+        <li>
+          <label for="tel">이메일</label>
+          <input type="tel" name="tel" id="tel" />
+        </li>
+        <li>
+          <label for="tel">연락처</label>
+          <input type="tel" name="tel" id="tel" />
+        </li>
+      </ul>
+    </section>
+  <section class="agree">
+    <input type="checkbox" name="banana" id="banana">
+    <label for="banana">만 14세 이상입니다.</label>
+  </section>
+    </div>
+    <div class="content">부스신청</div>
+    <section>
+      <legend>개인 예약</legend>
+      <ul>
+        <li>
+          <label for="fullName">이름</label>
+          <input type="text" id="fullName" name="fullName" required />
+        </li>
+        <li>
+          <label for="tel">이메일</label>
+          <input type="tel" name="tel" id="tel" />
+        </li>
+        <li>
+          <label for="tel">연락처</label>
+          <input type="tel" name="tel" id="tel" />
+        </li>
+      </ul>
+    </section>
+  <section class="agree">
+    <input type="checkbox" name="banana" id="banana">
+    <label for="banana">만 14세 이상입니다.</label>
+  </section>
+    <div class="content">공장견학</div>
       <div></div>
       <!-- 하단 -->
     </div>
+    <script>
+      function openTab(index) {
+        let tabs = document.querySelectorAll(".tab");
+        let contents = document.querySelectorAll(".content");
+
+        // 모든 탭과 콘텐츠의 active 클래스 제거
+        tabs.forEach((tab) => tab.classList.remove("active"));
+        contents.forEach((content) => content.classList.remove("active"));
+
+        // 선택한 탭과 콘텐츠 활성화
+        tabs[index].classList.add("active");
+        contents[index].classList.add("active");
+      }
+    </script>
   </body>
 </html>
