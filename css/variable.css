@@ -27,6 +27,13 @@ html {
   margin: auto;
   background-color: #fff;
 }
+
+.tab li:hover a {
+  color: var(--gumi--sub-yellow);
+}
+.active{
+  color: var(--gumi--sub-yellow);
+}
 /* Color styles */
 :root {
   --gumi--main: rgba(252, 103, 19, 1);
