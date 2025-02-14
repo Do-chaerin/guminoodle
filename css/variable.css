@@ -13,6 +13,7 @@
 ul,
 li {
   list-style: none;
+  color: var(--gumi--sub-green);
 }
 a {
   text-decoration: none;
@@ -33,6 +34,7 @@ html {
 }
 .active{
   color: var(--gumi--sub-yellow);
+  display: block !important;
 }
 /* Color styles */
 :root {

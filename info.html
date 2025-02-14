@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>구미라면축제</title>
     <!-- favicon -->
     <link rel="icon" type="image/icon" sizes="16x16" href="images/favicon.ico" />
     <!-- 공통 css -->
@@ -14,9 +13,9 @@
     <!-- css -->
     <link rel="stylesheet" href="css/info.css" />
     <!-- js -->
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/header.js"></script>
+    <title>구미라면축제</title>
   </head>
   <body>
     <!-- 헤더 -->
@@ -70,14 +69,16 @@
     </section>
     <!-- 탭 -->
     <ul class="tab">
-      <li><a href="info.html">축제소개</a></li>
-      <li><a href="info.html">히스토리</a></li>
+      <li>축제소개</li>
+      <li>히스토리</li>
     </ul>
     <!-- 축제소개 -->
-    <div class="festival">
+    <div class="item festival">
       <h1 class="title inner">축제소개</h1>
       <div class="info inner">
-        <img class="poster" src="images/라면축제 포스터_최종 (1).jpg" alt="라면축제포스터" />
+        <div class="infoPoster">
+          <img src="images/라면축제 포스터_최종 (1).jpg" alt="라면축제포스터" />
+        </div>
         <div class="infoText">
           <ul>
             <li>기간 | 2.24(월) ~ 2.28(금)</li>
@@ -99,13 +100,16 @@
         </div>
       </div>
     </div>
-    <div class="history">
+    <!-- 히스토리 -->
+    <div class="item history">
       <h1 class="title inner">히스토리</h1>
       <div class="info inner">
         <!-- 2024 -->
         <div class="posterline"></div>
         <div class="poster">
-          <img src="images/poster2024.jpg" alt="2024라면축제포스터" />
+          <div class="historyPoster">
+            <img src="images/poster2024.jpg" alt="2024라면축제포스터" />
+          </div>
           <div class="infoText">
             <ul>
               <li><p>2024 구미라면축제</p></li>
@@ -115,22 +119,29 @@
               <li>장소 | 구미역 앞 역전로 일원</li>
               <li>주최 | 구미시</li>
             </ul>
-            <!-- 축제 프로그램 -->
-            <h2>프로그램</h2>
-            <dl>
-              <dt>라면레스토랑</dt>
-              <dd>농심 구미공장에서 갓 튀겨낸 라면을 활용한 다양한 라면 요리를 선보이는 특별한 레스토랑</dd>
-              <dt>구미라면공작소</dt>
-              <dd>참가자들이 직접 나만의 라면을 만들 수 있는 체험 프로그램</dd>
-              <dt>제1회 라믈리에 선발대회</dt>
-              <dd>참가자들이 라면 요리 실력을 겨루는 경연대회</dd>
-            </dl>
+            <!-- 진행했던 프로그램 -->
+            <div class="textline"></div>
+            <div class="programText">
+              <h2>진행 프로그램</h2>
+              <dl>
+                <dt>🍜라면레스토랑</dt>
+                <dd>농심 구미공장에서 갓 튀겨낸 라면을 활용한 다양한 라면 요리를 선보이는 특별한 레스토랑</dd>
+                <dt>🍜구미라면공작소</dt>
+                <dd>참가자들이 직접 나만의 라면을 만들 수 있는 체험 프로그램</dd>
+                <dt>🍜대한민국 라면 봉지 콜렉션</dt>
+                <dd>과거와 현재의 다양한 라면 봉지들을 한눈에 볼 수 있는 공간</dd>
+                <dt>🍜제1회 라믈리에 선발대회</dt>
+                <dd>참가자들이 라면 요리 실력을 겨루는 경연대회</dd>
+              </dl>
+            </div>
           </div>
         </div>
         <!-- 2023 -->
         <div class="posterline"></div>
         <div class="poster">
+          <div class="historyPoster">
           <img src="images/poster2023.jpg" alt="2023라면축제포스터" />
+          </div>
           <div class="infoText">
             <ul>
               <li><p>2023 구미라면축제</p></li>
@@ -140,22 +151,25 @@
               <li>장소 | 구미역 앞 역전로 일원</li>
               <li>주최 | 구미시</li>
             </ul>
-            <!-- 축제 프로그램 -->
-            <h2>프로그램</h2>
-            <dl>
-              <dt>면량 운동회</dt>
-              <dd>라면을 활용한 레크리에이션으로, 릴레이 게임, 퀴즈 대회, 라면 지식 대결 등이 진행되었다.</dd>
-              <dt>스트릿 라면 푸드파이터</dt>
-              <dd>전국의 푸드파이터들과 함께하는 라면 먹방 대결</dd>
-              <dt>제1회 라믈리에 선발대회</dt>
-              <dd>참가자들이 라면 요리 실력을 겨루는 경연대회로, 창의적인 레시피와 요리 솜씨를 선보이는 무대이다.</dd>
-            </dl>
+            <div class="textline"></div>
+            <!-- 진행했던 프로그램 -->
+            <div class="programText">
+              <h2>진행 프로그램</h2>
+              <dl>
+                <dt>🍜면량 운동회</dt>
+                <dd>라면을 활용한 레크리에이션으로, 릴레이 게임, 퀴즈 대회, 라면 지식 대결 등</dd>
+                <dt>🍜스트릿 라면 푸드파이터</dt>
+                <dd>전국의 푸드파이터들과 함께하는 라면 먹방 대결</dd>
+              </dl>
+            </div>
           </div>
         </div>
         <!-- 2022 -->
         <div class="posterline"></div>
         <div class="poster">
+          <div class="historyPoster">
           <img src="images/poster2022.jpg" alt="2022라면축제포스터" />
+          </div>
           <div class="infoText">
             <ul>
               <li><p>2022 구미라면축제</p></li>
@@ -164,19 +178,17 @@
               <li>장소 | 낙동강체육공원 구미캠핑장</li>
               <li>주최 | 구미시</li>
             </ul>
-            <!-- 축제 프로그램 -->
-            <h2>프로그램</h2>
-            <dl>
-              <dt>라면레스토랑</dt>
-              <dd>농심 구미공장에서 갓 튀겨낸 라면을 활용한 다양한 라면 요리를 선보이는 특별한 레스토랑이다.</dd>
-              <dt>구미라면공작소</dt>
-              <dd>
-                참가자들이 직접 나만의 라면을 만들 수 있는 체험 프로그램으로, 면, 수프, 토핑 등을 선택하여 자신만의
-                라면을 완성할 수 있다.
-              </dd>
-              <dt>제1회 라믈리에 선발대회</dt>
-              <dd>참가자들이 라면 요리 실력을 겨루는 경연대회로, 창의적인 레시피와 요리 솜씨를 선보이는 무대이다.</dd>
-            </dl>
+            <div class="textline"></div>
+            <!-- 진행했던 프로그램 -->
+            <div class="programText">
+              <h2>진행 프로그램</h2>
+              <dl>
+                <dt>🍜갓 튀긴 라면 시식</dt>
+                <dd>농심 구미공장에서 갓 튀겨낸 신라면을 직접 시식</dd>
+                <dt>🍜이색 라면 요리 경연대회</dt>
+                <dd>참가자들이 나만의 비밀 레시피로 라면 요리를 선보이는 대회</dd>
+              </dl>
+            </div>
           </div>
         </div>
       </div>
