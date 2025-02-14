@@ -41,7 +41,6 @@
 
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/community.css" />
-    <link rel="stylesheet" href="css/main_swipe.css" />
     <!-- 채원css -->
 
     <!-- js -->
@@ -56,6 +55,7 @@
 
     <!-- 효빈js -->
     <script src="js/main_swipe.js"></script>
+    <script async src="https://public.codepenassets.com/embed/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>
 
@@ -113,14 +113,15 @@
       <main>
         <!-- 비주얼 -->
         <video class="video" src="images/main_visual.mp4" frameborder="0" autoplay loop muted></video>
-        <section class="inner">
+        <section class="inner main-top">
           <!-- 부스지도 영역 -->
-          <img src="images/부스지도.png" alt="부스 지도" />
+          <img src="images/안내도.png" alt="부스 지도" />
+          <hr />
           <!-- 부스 스와이프 영역 -->
           <div class="swipe_inner">
             <div class="recipe-container">
               <h1>아시아라면</h1>
-              <div class="swiper">
+              <div class="swiper asiaswiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide post">
                     <img class="post-img" src="images/부스/gumi_booth _1(1).JPEG" alt="recipe" />
@@ -188,7 +189,7 @@
             </div>
             <div class="recipe-container">
               <h1>퓨-전라면</h1>
-              <div class="swiper">
+              <div class="swiper futureswiper">
                 <div class="swiper-wrapper">
                   <div class="swiper-slide post">
                     <img class="post-img" src="images/부스/gumi_booth _1(1).JPEG" alt="recipe" />
@@ -256,22 +257,111 @@
             </div>
           </div>
         </section>
-        <!-- 버스 지나가는 영역 -->
-        <div id="card">
-          <div
-            id="scroll"
-            data--50-top="transform:translateX(-400px)"
-            data--70-top="transform:translateX(400px)"
-            data--100-top="transform:translateX(600px)"
-            data--250-top="transform:translateX(800px)"
-            data-anchor-target="#card"
-          >
-            <p id="bus">BUS.</p>
-          </div>
-        </div>
         <section class="inner">
           <!-- 관광정보영역 -->
-          <img src="images/부스지도.png" alt="부스 지도" />
+
+          <div class="container">
+            <h1 class="title">Responsive Slider Timeline</h1>
+            <div class="timeline">
+              <div class="busswiper swiper-container">
+                <div class="swiper-wrapper">
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=11)"
+                    data-year="2011"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2011</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=12)"
+                    data-year="2012"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2012</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=13)"
+                    data-year="2013"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2013</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=14)"
+                    data-year="2014"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2014</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=15)"
+                    data-year="2015"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2015</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                  <div
+                    class="swiper-slide"
+                    style="background-image: url(https://unsplash.it/1920/500?image=16)"
+                    data-year="2016"
+                  >
+                    <div class="swiper-slide-content">
+                      <span class="timeline-year">2016</span>
+                      <h4 class="timeline-title">Our nice super title</h4>
+                      <p class="timeline-text">
+                        Lorem ipsum dolor site amet, consectetur adipscing elit, sed do eisumod tempor incididut ut
+                        labore et dolore magna aliqua. Ut enim ad mimim venjam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
           <!-- 갤러리 -->
         </section>
       </main>
