@@ -5,20 +5,11 @@
   font-weight: 500;
   font-style: normal;
 }
-html {
-  font-size: 16px;
-  font-family: "SBAggroM";
-}
-.inner {
-  margin: auto;
-  width: 1280px;
-}
 .title {
   font-size: 3rem;
   padding: 50px 0;
   color: var(--gumi--sub-green);
 }
-
 .info {
   display: flex;
   justify-content: space-between;
@@ -39,7 +30,7 @@ html {
 }
 
 .infoText p {
-    text-align: justify;
+  text-align: justify;
   font-size: 1.1rem;
   line-height: 1.8;
   color: #333
