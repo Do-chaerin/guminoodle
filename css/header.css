@@ -1,17 +1,4 @@
 @charset "utf-8";
-ul,
-li {
-  list-style: none;
-}
-li a {
-  text-decoration: none;
-  color: var(--gumi--sub-green);
-  font-size: 1.3rem;
-}
-html {
-  font-size: 20px;
-  font-family: "SBAggroB";
-}
 header {
   position: fixed;
   top: 0;
@@ -54,8 +41,7 @@ nav {
   text-align: center;
   display: flex;
   align-items: center;
-  gap: 50px;
-
+  gap: var(--li--gap--l);
 }
 
 .depth {
